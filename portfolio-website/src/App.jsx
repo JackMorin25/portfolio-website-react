@@ -1,5 +1,6 @@
 import githubLogo from './assets/github-mark-white.svg'
 import PixelRain from './PixelRain'
+import FadeText from './components/fade-text/fadeText'
 import './App.css'
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
         <a href="https://github.com/JackMorin25" target="_blank">
           <img src={githubLogo} className="logo" alt="GitHub logo" />
         </a>
-      </div>  
+      </div>
+      <FadeText />  
     </>
   )
 }
