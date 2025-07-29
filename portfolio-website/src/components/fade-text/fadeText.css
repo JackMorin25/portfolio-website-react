@@ -1,5 +1,5 @@
-.fade-text{
-    animation: fade-in 15s
+#fade-text{
+    animation: fade-in 2.5s
 }
 
 @keyframes fade-in {
