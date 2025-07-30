@@ -1,0 +1,31 @@
+/* Pixel rain background effect */
+.pixel-rain {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 0;
+}
+.pixel {
+  position: absolute;
+  width: 4px;
+  height: 5px;
+  background: rgba(100, 108, 255, 0.7);
+  border-radius: 1px;
+  animation: pixel-rain-fall infinite;
+}
+@keyframes pixel-rain-fall {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0.8;
+  }
+  90% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+}
