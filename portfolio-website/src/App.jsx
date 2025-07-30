@@ -1,8 +1,11 @@
 import githubLogo from './assets/github-mark-white.svg'
 import linkedInLogo from './assets/linkedin-svgrepo-com.svg'
+import downArrow from './assets/down-arrow-svgrepo-com.svg'
 import PixelRain from './components/pixel-rain/PixelRain'
 import FadeText from './components/fade-text/fadeText'
 import './App.css'
+
+//import { useInView } from 'react-intersection-observer';
 
 function App() {
 
@@ -18,7 +21,12 @@ function App() {
           <img src={linkedInLogo} className="logo" alt="LinkedIn logo" />
         </a>
       </div>
-      <FadeText />  
+      <FadeText />
+      <div>
+        <a>
+          <img  src={downArrow} className="downArrow" />
+        </a>
+      </div>
     </>
   )
 }

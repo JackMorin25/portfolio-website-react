@@ -5,6 +5,16 @@
   text-align: center;
 }
 
+.downArrow {
+  opacity:  .6;
+  position: fixed;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  z-index: 100;
+  margin-bottom: 20px;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -17,6 +27,7 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #c7e1e8aa);
 }
+
 
 
 
