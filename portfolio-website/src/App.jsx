@@ -1,6 +1,6 @@
 import githubLogo from './assets/github-mark-white.svg'
 import linkedInLogo from './assets/linkedin-svgrepo-com.svg'
-import PixelRain from './PixelRain'
+import PixelRain from './components/pixel-rain/PixelRain'
 import FadeText from './components/fade-text/fadeText'
 import './App.css'
 

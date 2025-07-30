@@ -1,4 +1,6 @@
 import React, { useEffect, useRef } from "react";
+import './PixelRain.css'
+
 
 const NUM_PIXELS = 120;
 
