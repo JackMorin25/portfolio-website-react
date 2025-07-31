@@ -23,9 +23,13 @@ function App() {
       </div>
       <FadeText />
       <div>
-        <a>
-          <img  src={downArrow} className="downArrow" />
+        <a href="#more-content">
+          <img src={downArrow} className="downArrow" alt="Scroll Down" />
         </a>
+      </div>
+      
+      <div id="more-content" style={{marginBottom: '20px'}}>
+        <p style={{transform: 'translate(0px,600px)'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid modi ab sed nostrum optio repudiandae. Dolorem inventore asperiores nihil doloribus, quasi odio officia aspernatur consectetur delectus laborum at sunt veniam?</p>
       </div>
     </>
   )
