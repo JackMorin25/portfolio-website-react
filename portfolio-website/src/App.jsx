@@ -5,9 +5,23 @@ import PixelRain from './components/pixel-rain/PixelRain'
 import FadeText from './components/fade-text/fadeText'
 import './App.css'
 
+import React, { useEffect } from "react";
 //import { useInView } from 'react-intersection-observer';
 
 function App() {
+
+  useEffect(() => {
+    window.addEventListener('scroll', function() {
+        // Code to execute on scroll
+        if(this.window.scrollY > 0){
+            // hide scroll down icon
+            document.querySelector('.downArrow').style.display = 'none';
+        }
+        else{
+            document.querySelector('.downArrow').style.display = 'block';
+        }
+    });
+  })
 
   return (
     <>
@@ -29,7 +43,7 @@ function App() {
       </div>
       
       <div id="more-content" style={{marginBottom: '20px'}}>
-        <p style={{transform: 'translate(0px,600px)'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid modi ab sed nostrum optio repudiandae. Dolorem inventore asperiores nihil doloribus, quasi odio officia aspernatur consectetur delectus laborum at sunt veniam?</p>
+        <p style={{transform: 'translate(0px,600px)', width: '50%'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid modi ab sed nostrum optio repudiandae. Dolorem inventore asperiores nihil doloribus, quasi odio officia aspernatur consectetur delectus laborum at sunt veniam?</p>
       </div>
     </>
   )
