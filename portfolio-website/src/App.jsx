@@ -42,16 +42,15 @@ function App() {
         </a>
       </div>
       
-      <div id="more-content" style={{marginBottom: '20px'}}>
-        <p style={{transform: 'translate(0px,500px)', width: '50%'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid modi ab sed nostrum optio repudiandae. Dolorem inventore asperiores nihil doloribus, quasi odio officia aspernatur consectetur delectus laborum at sunt veniam?</p>
+      <div id="more-content" style={{marginBottom: '20px',transform: 'translate(0px,500px)'}}>
+        <p style={{ width: '50%'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid modi ab sed nostrum optio repudiandae. Dolorem inventore asperiores nihil doloribus, quasi odio officia aspernatur consectetur delectus laborum at sunt veniam?</p>
       </div>
-      <div id="more-content" style={{marginBottom: '20px'}}>
-        <p style={{transform: 'translate(600px,700px)', width: '50%'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid modi ab sed nostrum optio repudiandae. Dolorem inventore asperiores nihil doloribus, quasi odio officia aspernatur consectetur delectus laborum at sunt veniam?</p>
+      <div id="more-content" style={{marginBottom: '20px', transform: 'translate(600px,700px)'}}>
+        <p style={{ width: '50%'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid modi ab sed nostrum optio repudiandae. Dolorem inventore asperiores nihil doloribus, quasi odio officia aspernatur consectetur delectus laborum at sunt veniam?</p>
       </div>
-      <div id="more-content" style={{marginBottom: '20px'}}>
-        <p style={{transform: 'translate(0px,900px)', width: '50%'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid modi ab sed nostrum optio repudiandae. Dolorem inventore asperiores nihil doloribus, quasi odio officia aspernatur consectetur delectus laborum at sunt veniam?</p>
+      <div id="more-content" style={{marginBottom: '20px',transform: 'translate(0px,900px)'}}>
+        <p style={{ width: '50%'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid modi ab sed nostrum optio repudiandae. Dolorem inventore asperiores nihil doloribus, quasi odio officia aspernatur consectetur delectus laborum at sunt veniam?</p>
       </div>
-      <div></div>
     </>
   )
 }
