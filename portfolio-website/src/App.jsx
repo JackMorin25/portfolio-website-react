@@ -44,36 +44,26 @@ function App() {
       <main>
         <section id="about" className="section about-section">
           <h2>About Me</h2>
-          <FadeText>
-            <p>
-              Hi, I'm Jack Morin, a passionate Full Stack Developer with experience building modern web applications using React, Node.js, and more. I enjoy solving complex problems and creating seamless user experiences.
-            </p>
-          </FadeText>
+          <FadeText text={"Hi, I'm Jack Morin, a passionate Full Stack Developer with experience building modern web applications using React, Node.js, and more. I enjoy solving complex problems and creating seamless user experiences."}/>
         </section>
 
         <section id="projects" className="section projects-section">
           <h2>Projects</h2>
           <div className="projects-list">
             <div className="project-card">
-              <h3>Project One</h3>
-              <p>
-                A web application that allows users to track their tasks efficiently. Built with React, Node.js, and MongoDB.
-              </p>
-              <a href="https://github.com/JackMorin25/project-one" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+              <h3>Bayseian Classifier</h3>
+              <FadeText text={"A Naive Bayes-based classifier that detects whether an email is spam or not spam using word frequency analysis. It processes labeled email data, trains a model, and predicts spam with solid accuracy using basic NLP and machine learning techniques."} />
+              <a href="https://github.com/JackMorin25/bayseian_spam_classifer" target="_blank" rel="noopener noreferrer">View on GitHub</a>
             </div>
             <div className="project-card">
-              <h3>Project Two</h3>
-              <p>
-                Real-time chat application using WebSockets and Express. Features authentication and responsive design.
-              </p>
-              <a href="https://github.com/JackMorin25/project-two" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+              <h3>Investment Oriented Webscraper</h3>
+              <FadeText text={"Webscraper in python which takes data from the website https://www.capitoltrades.com/trades and scrapes for latest stock trades made by politicians "}/>
+              <a href="https://github.com/JackMorin25/Investment-Webscraper" target="_blank" rel="noopener noreferrer">View on GitHub</a>
             </div>
             <div className="project-card">
-              <h3>Project Three</h3>
-              <p>
-                Portfolio website showcasing my work, skills, and contact information. Built with React and CSS animations.
-              </p>
-              <a href="https://github.com/JackMorin25/portfolio-website" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+              <h3>Sentiment Analysis Model Comparison</h3>
+              <FadeText text={"Compariosn between deciscion trees, logistic regression, naive bayes, and the BERT model to determine strengths and weaknesses of using these models for Sentiment Analysis "}/>
+              <a href="https://github.com/JackMorin25/sentiment-analysis-model-coparison" target="_blank" rel="noopener noreferrer">View on GitHub</a>
             </div>
           </div>
         </section>
@@ -82,13 +72,18 @@ function App() {
           <h2>Skills</h2>
           <ul className="skills-list">
             <li>JavaScript / TypeScript</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>C#</li>
             <li>React / Redux</li>
-            <li>Node.js / Express</li>
-            <li>HTML5 / CSS3 / SASS</li>
+            <li>Node.js</li>
+            <li>HTML5 / CSS3 </li>
             <li>MongoDB / SQL</li>
             <li>Git / GitHub</li>
             <li>REST APIs</li>
-            <li>Unit Testing / Jest</li>
+            <li>Unit Testing</li>
+            <li>AGILE</li>
+            <li>AI / Machine Learning</li>
           </ul>
         </section>
 
@@ -97,7 +92,7 @@ function App() {
           <p>
             Interested in working together or have any questions? Feel free to reach out!
           </p>
-          <a href="mailto:jack.morin@email.com" className="contact-button">Email Me</a>
+          <a href="mailto:jackmorin757@gmail.com" className="contact-button">Email Me</a>
         </section>
       </main>
     </div>
