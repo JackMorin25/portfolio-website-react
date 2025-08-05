@@ -5,7 +5,7 @@ This project showcases my skills, projects, and contact information as a Full St
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Modern, Responsive Design**  
   Clean, professional layout that looks great on all devices.
@@ -24,7 +24,7 @@ This project showcases my skills, projects, and contact information as a Full St
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 - [React](https://react.dev/)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
